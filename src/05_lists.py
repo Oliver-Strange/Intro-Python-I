@@ -33,7 +33,7 @@ print(len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
 
-
+"""
 def mult1000(n):
     return n*1000
 
@@ -42,3 +42,7 @@ result = map(mult1000, x)
 
 times1000 = set(result)
 print(times1000)
+"""
+
+for num in x:
+    print(num*1000)
